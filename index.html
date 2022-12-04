@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="icon" href="/img/faviconsmall.png"/>
+    <link rel="apple-touch-icon" href="/img/favicon-192.png"/>
+    <link rel="manifest" href="manifest.webmanifest"/>
+
+    <meta name="content" description="Yumfoods is an online kitchen that helps you eat healthy, 365 days a year with ease. 
+    It's tailored to your personal taste and nutritional needs."/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -76,11 +83,17 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
+            <picture>
+              <source srcset="img/hero.webp" type="img/webp"/>
+              <source srcset="img/hero.png" type="img/png"/>
+
+              <img
               src="img/hero.png"
               class="hero-img"
               alt="woman enjoying a meal, food in storage containers and food bowl on a table"
             />
+            </picture>
+            
           </div>
         </div>
       </section>
