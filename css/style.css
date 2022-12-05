@@ -448,14 +448,14 @@
   position: absolute;
   content: "best value";
   top: 7%;
-  right: -14%;
+  right: -18%;
 
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
   color: #333;
   background-color: #ffd43b;
-  padding: 0.8rem 6.2rem;
+  padding: 0.8rem 8.4rem;
   transform: rotate(45deg);
 }
 
@@ -614,7 +614,7 @@
 }
 
 /*************/
-/* SECTION-CTA */
+/* SECTION-FOOTER */
 /*************/
 .footer {
   padding: 12.8rem 0;

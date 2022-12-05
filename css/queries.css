@@ -293,9 +293,15 @@
   }
 
   .pricing-plan-complete::after {
-    top: 7%;
-    right: -9%;
+    top: 11%;
+    right: -10%;
   }
+}
+
+@media (max-width: 29em) {
+  .pricing-plan-complete::after {
+    top: 9%;
+    right: -14%;
 }
 
 /* *************************************** */
